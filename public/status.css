@@ -1,0 +1,8 @@
+.edition-status{display:flex;align-items:center;gap:18px;padding:11px 0;border-bottom:1px solid var(--line);font:10px 'DM Mono',monospace;letter-spacing:.04em}
+.edition-status>div{display:flex;align-items:center;gap:8px;white-space:nowrap}
+.edition-status strong{color:var(--muted)}
+.edition-status #sync-status{color:#ffc66d}
+.edition-status p{margin:0;color:var(--muted);line-height:1.35}
+.edition-status button{margin-left:auto;border:1px solid var(--line);background:transparent;color:var(--ink);padding:6px 9px;font:10px 'DM Mono',monospace;cursor:pointer;white-space:nowrap}
+.edition-status button:disabled{opacity:.65;cursor:wait}
+@media(max-width:800px){.edition-status{align-items:flex-start;flex-wrap:wrap}.edition-status p{order:3;flex-basis:100%}.edition-status button{margin-left:auto}}

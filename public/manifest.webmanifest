@@ -1,0 +1,24 @@
+{
+  "name": "The Signal — AI Edition",
+  "short_name": "The Signal",
+  "description": "A visual, source-led AI briefing.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#171916",
+  "theme_color": "#171916",
+  "icons": [
+    {
+      "src": "images/the-signal-app-icon.png",
+      "sizes": "1254x1254",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "images/the-signal-app-icon.png",
+      "sizes": "1254x1254",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
